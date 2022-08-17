@@ -1,7 +1,9 @@
+import Video from "../../components/Video/Video"
+
 const HomePage = () => {
 
     return ( 
-        <h1>yiha!</h1>
+        <Video />
     )
 }
 
