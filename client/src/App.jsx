@@ -1,6 +1,8 @@
 import './App.css'
 import Navigation from './components/Navigation/Navigation'
 import HomePage from './page/HomePage/HomePage'
+import About from './page/About/About'
+
 
 
 function App() {
@@ -8,8 +10,8 @@ function App() {
     <div className="App">
     
     <Navigation />
-
     <HomePage />
+    <About />
 
 
 

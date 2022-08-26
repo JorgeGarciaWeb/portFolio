@@ -5,6 +5,7 @@ const Video = () => {
 
 
     return (
+        <>
         <div className='delimitador'>
             <div className='contenedor'>
             <video autoPlay muted loop >
@@ -13,7 +14,7 @@ const Video = () => {
             </div>
         </div>
 
-        
+        </>
 
     )
 }
