@@ -4,9 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 const  Navigation = () => {
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed-top>
             <Container>
-                <Navbar.Brand href="#home">Jorge García || PortFolio</Navbar.Brand>
+                <Navbar.Brand href="#home"></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
